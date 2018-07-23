@@ -9,6 +9,7 @@ package tech.valery;
  *
  * With private constructor we provide the ability to the Singletone class be the only global access point
  * to get the instance of the class, but Reflection API can destroy this mechanism.
+ * https://www.javaworld.com/article/2074979/java-concurrency/double-checked-locking--clever--but-broken.html
  *
  */
 public class DCSingleton {
